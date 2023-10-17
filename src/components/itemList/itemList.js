@@ -1,4 +1,4 @@
-const itemList = ({products}) => {
+const ItemList = ({products}) => {
     return(
         <div class='listgroup'>
             {products.map(prod => <Item key={prod.id} {...prod} />)}
@@ -6,4 +6,4 @@ const itemList = ({products}) => {
     )
 }
 
-export default itemList
+export default ItemList

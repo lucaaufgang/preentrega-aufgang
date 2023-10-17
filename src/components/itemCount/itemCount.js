@@ -7,7 +7,7 @@ const Producto = ({stock,initial, onAdd})=> {
         if(quantity < stock){
             setQuantity(quantity+1)
         }
-        else (quantity >= stock){
+        else (quantity >= stock);{
             alert('ya tienes el maximo de stock aceptable');
         }
     }
@@ -16,7 +16,7 @@ const Producto = ({stock,initial, onAdd})=> {
         if(quantity > 1){
             setQuantity(quantity - 1)
         }
-        else (quantity = 1){
+        else (quantity = 1);{
             alert('ya tienes el minimo de stock en el carrito')
         }
     }
